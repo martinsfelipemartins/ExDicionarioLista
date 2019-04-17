@@ -1,14 +1,12 @@
 package br.com.alunodh;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class exDicio1 {
     public static void main(String[] args) {
 
 
-
-        Map<Integer, String> loteriaDosSonhos= new HashMap<>();
+        Map<Integer, String> loteriaDosSonhos = new HashMap<>();
         loteriaDosSonhos.put(0, "Ovos");
         loteriaDosSonhos.put(1, "agua");
         loteriaDosSonhos.put(2, "Escopeta");
@@ -16,9 +14,8 @@ public class exDicio1 {
         loteriaDosSonhos.put(4, "Dentista");
         loteriaDosSonhos.put(5, "Fogo");
 
-        for (int chave: loteriaDosSonhos.keySet()){
+        for (int chave : loteriaDosSonhos.keySet()) {
             System.out.println("Valor da loteria: " + loteriaDosSonhos.get(chave));
         }
 
-    }
-}
+    }}
